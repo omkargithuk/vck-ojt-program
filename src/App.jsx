@@ -12,6 +12,7 @@ import Header from "./components/Header/Header"
 import Footer from "./components/Footer/Footer"
 import '../src/App.css' // Importing global styles
 import Homepage from "./pages/Homepage"
+
 const App = () => {
   const [showPopup, setShowPopup] = useState(true);
   const handleClosePopup = () => {
@@ -34,7 +35,7 @@ const App = () => {
     <Header/>
     <div className="content">    <Routes>
      <Route path="/" element={<Homepage/>}/>
-      <Route path="/home" element={<Homepage/>}/>
+
       <Route path="/about" element={<AboutPages/>}/>
       <Route path="/courses" element={<CoursesPage/>}/>
       <Route path="/contact" element={<ContactPage/>}/>
