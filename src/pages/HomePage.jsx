@@ -1,10 +1,9 @@
-import Header from "../components/Header/Header";
-import Footer  from "../components/Footer/Footer";
+
 //  src/pages/HomePage.jsx
 import { Link } from "react-router-dom";
 
 
-const HomePage = () => {
+const Homepage = () => {
   return (
     <div className="page-container" style={{ overflow: "auto" }}>
     
@@ -79,4 +78,4 @@ const HomePage = () => {
     </div>
   );
 };
-export default HomePage;
+export default Homepage;
