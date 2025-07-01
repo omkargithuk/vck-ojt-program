@@ -38,7 +38,7 @@ export const cosineSimilarity = (vecA, vecB) => {
   let magnitudeA = 0;
   let magnitudeB = 0;
   for (let i = 0; i < vecA.length; i++) 
-    {
+      {
     dotProduct += vecA[i] * vecB[i];
     // dotProduct = dotProduct + vecA[i] * vecB[i];
     magnitudeA += vecA[i] * vecA[i];

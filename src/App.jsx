@@ -11,7 +11,8 @@ import DeveloperInfoPopup from "./components/DeveloperInfo/DeveloperInfoPopup"
 import Header from "./components/Header/Header"
 import Footer from "./components/Footer/Footer"
 import '../src/App.css' // Importing global styles
-import Homepage from "./pages/Homepage"
+import Homepage from "./pages/HomePage"
+
 
 const App = () => {
   const [showPopup, setShowPopup] = useState(true);
@@ -33,14 +34,14 @@ const App = () => {
    <Router>
     <div className="main-layout">
     <Header/>
-    <div className="content">    <Routes>
-     <Route path="/" element={<Homepage/>}/>
-
-      <Route path="/about" element={<AboutPages/>}/>
-      <Route path="/courses" element={<CoursesPage/>}/>
-      <Route path="/contact" element={<ContactPage/>}/>
-      <Route path="/admission" element={<AdmissionPage/>}/>
-    </Routes>
+    <div className="content">
+      <Routes>
+        <Route path="/" element={<Homepage/>}/>
+        <Route path="/about" element={<AboutPages/>}/>
+        <Route path="/courses" element={<CoursesPage/>}/>
+        <Route path="/contact" element={<ContactPage/>}/>
+        <Route path="/admission" element={<AdmissionPage/>}/>
+      </Routes>
       <ChatbotComponent/>
       </div>
       <Footer/>
