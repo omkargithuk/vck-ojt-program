@@ -4,7 +4,7 @@ import AboutPages from "./pages/AboutPage"
 import CoursesPage from "./pages/CoursesPage"
 import ContactPage from "./pages/ContactPage"
 import AdmissionPage from "./pages/AdmissionPage"
-import './styles/pages.css'
+import './styles/Pages.css'
 import ChatbotComponent from "./components/Chatbot/ChatbotComponents"
 import { useState } from "react"
 import DeveloperInfoPopup from "./components/DeveloperInfo/DeveloperInfoPopup"
